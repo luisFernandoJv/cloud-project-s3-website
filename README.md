@@ -20,7 +20,7 @@ O projeto cobre criação de bucket, gerenciamento de permissões com IAM, confi
 
 ## Arquitetura
 
-![architecture](./screenshots/architecture-diagram.png)
+![architecture](./diagrams/architecture-diagram.png)
 
 > Fluxo completo: EC2 via Session Manager → AWS CLI → upload para bucket S3 → site acessível publicamente via endpoint S3.
 
